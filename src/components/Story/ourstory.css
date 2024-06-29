@@ -1,0 +1,13 @@
+.our-story {
+    background-color: white;
+    text-align: center;
+}
+
+
+.our-story .label {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playwrite', serif;
+    font-weight: normal;
+    color: RGB(123, 123, 119);
+}

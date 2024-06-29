@@ -1,0 +1,67 @@
+.countdown {
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+
+}
+
+.countdown .label {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Playwrite', serif;
+    font-weight: normal;
+    color: RGB(123, 123, 119);
+}
+
+.countdown .datetime {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Playwrite', serif;
+    font-weight: normal;
+    color: RGB(193, 186, 164);
+}
+
+.heart {
+    position: fixed;
+    top: 0px;
+    transform: translateY(0vh);
+    animation: fall 3s linear forwards;
+    transition: all 2s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(111vh);
+    }
+}
+
+.heart1 {
+    position: fixed;
+    top: 0px;
+    transform: translateY(0vh);
+    animation: rain 2s linear forwards;
+    transition: rain 4s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+@keyframes rain {
+    to {
+        transform: translateY(130vh);
+    }
+}
+
+.heart2 {
+    position: fixed;
+    top: 0px;
+    transform: translateY(0vh);
+    animation: rainy 3s linear forwards;
+    transition: rainy 5s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+
+@keyframes rainy {
+    to {
+        transform: translateY(130vh);
+    }
+}

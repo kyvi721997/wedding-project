@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Dancing';
+    src: local('Dancing'), url(../fonts/Dancing/static/DancingScript-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: local('Dancing'), url(../fonts/Dancing/static/DancingScript-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+@font-face {
+    font-family: 'Playwrite';
+    src: local('Playwrite'), url(../fonts/Playwrite_GB_S/PlaywriteGBS-VariableFont_wght.ttf) format('truetype');
+    font-weight: auto;
+    font-style: auto;
+    /* other formats include: 'woff2', 'truetype, 'opentype', 'embedded-opentype', and 'svg' */
+}
