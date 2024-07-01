@@ -4,7 +4,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 import path from 'path';
 
 export default defineConfig({
-  base: './',
+  base: '/wedding-project',
   resolve: {
     alias: {
       assets: path.resolve(__dirname, './src/assets'),

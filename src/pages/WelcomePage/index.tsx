@@ -11,8 +11,8 @@ const WelcomePage: React.FC = () => {
     }
 
     return <div className={`welcome-page`}>
-        <img src="//i.imgur.com/dGOOfnA.png" alt="image-top-right" className="top-right-decoration"/>
-        <img src="//i.imgur.com/t6ffnbn.png" alt="image-top-left" className="top-left-decoration"/>
+        <img src="https://i.imgur.com/dGOOfnA.png" alt="image-top-right" className="top-right-decoration"/>
+        <img src="https://i.imgur.com/t6ffnbn.png" alt="image-top-left" className="top-left-decoration"/>
 
         <div className="wrap">
             <div className="title">

@@ -6,10 +6,10 @@ import WelcomePage from "src/pages/WelcomePage";
 function App() {
     return (
         <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<WelcomePage/>}/>
-                    <Route path='/home' element={<HomePage/>}/>
-                </Routes>
+            <Routes>
+                <Route path='/' element={<WelcomePage/>}/>
+                <Route path='/home' element={<HomePage/>}/>
+            </Routes>
         </BrowserRouter>
     )
 }
