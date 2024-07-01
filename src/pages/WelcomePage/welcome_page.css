@@ -1,0 +1,132 @@
+
+.heart {
+    position: fixed;
+    top: 0px;
+    transform: translateY(0vh);
+    animation: fall 3s linear forwards;
+    transition: all 2s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(111vh);
+    }
+}
+
+.heart1 {
+    position: fixed;
+    top: 0px;
+    transform: translateY(0vh);
+    animation: rain 2s linear forwards;
+    transition: rain 4s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+@keyframes rain {
+    to {
+        transform: translateY(130vh);
+    }
+}
+
+.heart2 {
+    position: fixed;
+    top: 0px;
+    transform: translateY(0vh);
+    animation: rainy 3s linear forwards;
+    transition: rainy 5s linear;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.0);
+}
+
+@keyframes rainy {
+    to {
+        transform: translateY(130vh);
+    }
+}
+
+/*******************************/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width:900px) {
+    img {   max-width: 30%; }
+}
+
+.top-right-decoration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+.top-left-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.title h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size:60px;
+    margin:5px 0;
+
+    color:#674ea7;
+}
+
+.title h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#e25c67;
+    line-height:1;
+}
+
+.dance-med {
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    font-size:20px;
+    color:#674ea7;
+    text-align: center;
+}
+
+.title h3 {
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size:16px;
+    color:#674ea7;
+    margin-top: 5px;
+}
+
+
+.title p {
+    color:#564861;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:12px;
+}
+
+.wrap {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    min-height:100%;
+}
